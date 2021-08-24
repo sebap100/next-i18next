@@ -11,7 +11,7 @@ This package, `next-i18next`, has changed a lot because it now is _not_ providin
 
 Before the translation functionality was initialised on a global level, in `_app.js`. Now, you must use a new method, called `serverSideTranslations` on *each* page in your `pages` directory.
 
-The object `i18n` which was imported directly from `i18n.js` in `next-i18next@<8` suppored only client-side-rendering. Now in the v8 the `i18n` object also supports server-side rendering. So you can use the `i18n.language` for server-side rendered elements.
+The object `i18n` which was imported directly from `i18n.js` in `next-i18next@<8` supported only client-side-rendering. Now in the v8 the `i18n` object also supports server-side rendering. So you can use the `i18n.language` for server-side rendered elements.
 
 ## What is the same?
 
